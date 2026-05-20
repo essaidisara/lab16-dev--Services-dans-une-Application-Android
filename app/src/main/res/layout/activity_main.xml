@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:gravity="center"
+
+    android:background="#1E1E1E">
+
+    <!-- Titre -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ESS CHRONOMETRE"
+
+        android:textColor="#00FF66"
+
+        android:textStyle="bold"
+
+        android:textSize="28sp"
+
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Temps -->
+
+    <TextView
+        android:id="@+id/affichageEss"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="00:00"
+
+        android:textColor="#FFFFFF"
+
+        android:textSize="60sp"
+
+        android:textStyle="bold"
+
+        android:layout_marginBottom="50dp"/>
+
+    <!-- Bouton Start -->
+
+    <Button
+        android:id="@+id/lancementEss"
+
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+
+        android:text="DEMARRER SERVICE"
+
+        android:textColor="#FFFFFF"
+
+        android:textStyle="bold"
+
+        android:textSize="16sp"
+
+        android:backgroundTint="#00C853"
+
+        android:padding="12dp"/>
+
+    <!-- Bouton Stop -->
+
+    <Button
+        android:id="@+id/arretEss"
+
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+
+        android:text="ARRETER SERVICE"
+
+        android:textColor="#FFFFFF"
+
+        android:textStyle="bold"
+
+        android:textSize="16sp"
+
+        android:backgroundTint="#424242"
+
+        android:padding="12dp"
+
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
